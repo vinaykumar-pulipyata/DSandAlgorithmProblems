@@ -89,6 +89,41 @@
 			]
 		},
 		{
+			"name": "Subset Sum",
+			"item": [
+				{
+					"name": "Subset Sum",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/programs/subSetSum?sum=7&array=2, 4, 3, 5, 7, 8, 9, 1, 6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"programs",
+								"subSetSum"
+							],
+							"query": [
+								{
+									"key": "sum",
+									"value": "7"
+								},
+								{
+									"key": "array",
+									"value": "2, 4, 3, 5, 7, 8, 9, 1, 6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "Welcome",
 			"request": {
 				"method": "GET",
